@@ -148,8 +148,6 @@ public class GameControlPane extends GridPane implements GameUIComponent {
         if(gameController.processUndo()){
             moveEvent.get().handle(e);
         }
-
-
         //throw new NotImplementedException();
     }
 }
