@@ -30,7 +30,7 @@ public class UIServices {
         // TODO: Create a file chooser with the provided string above \
         //  and set its initial directory to be the current working directory. done
         var fc = new FileChooser();
-        fc.setInitialDirectory(new File("/Users/thomasyin/Documents/Java/COMP3021-2021Fall-PA2-Student-Version-main"));
+        fc.setInitialDirectory(getWorkingDirectory().toFile());
         fc.setTitle(FILE_CHOOSER_TITLE);
         return fc;
         //throw new NotImplementedException();
