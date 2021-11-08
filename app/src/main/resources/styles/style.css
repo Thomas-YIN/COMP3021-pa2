@@ -23,12 +23,11 @@ GameCell {
     -fx-max-height: 30px;
 }
 
-GameStaticsPane {
-
-    -fx-background-color: teal;
+GameStatisticsPane {
+-fx-background-color: teal;
 }
 
-GameStaticsPane > Label {
-    -fx-font-size: 14pt;
-    -fx-text-fill: white;
+GameStatisticsPane > Label {
+-fx-font-size: 14pt;
+-fx-text-fill: white;
 }

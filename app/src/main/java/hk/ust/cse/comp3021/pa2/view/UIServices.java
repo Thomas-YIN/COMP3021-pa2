@@ -115,7 +115,7 @@ public class UIServices {
         var alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle(WIN_ALERT_TITLE);
         alert.setContentText(WIN_ALERT_CONTENT_TEXT);
-        alert.show();
+        alert.showAndWait();
         // throw new NotImplementedException();
     }
 
@@ -131,7 +131,7 @@ public class UIServices {
         var alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle(LOSE_ALERT_TITLE);
         alert.setContentText(LOSE_ALERT_CONTENT_TEXT);
-        alert.show();
+        alert.showAndWait();
         //throw new NotImplementedException();
     }
 }
