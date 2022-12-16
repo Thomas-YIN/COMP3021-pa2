@@ -75,33 +75,3 @@ Note that for testing, there is an option for Gradle and an option for JUnit. Wh
 version, a bug in IntelliJ causes the test panel to not show up when testing using Gradle. Therefore, we suggest using
 the JUnit version of the test configurations instead.
 
-## Submission
-
-You should submit a ZIP file containing the following:
-
-- This Java project. Please keep the original file structure.
-- A `github-url.txt` file containing the URL of your private repository. We will ask you to add the TAs' accounts as
-  collaborators soon.
-
-You need to submit your ZIP file to [CASS](https://cssystem.cse.ust.hk/UGuides/cass/index.html). The deadline for 
-this assignment is **November 8th 2021, 23:59**.
-
-## Grading Scheme
-
-|  | **Percentage** | **Notes** |
-| --- | --- | --- |
-| Keep your GitHub repository private | 5% | You must keep your repository **private** at all times. |
-| Commit at least 3 times in different days | 5% | You should commit three times during different days in your repository. |
-| Code Style | 10% | You get 10% by default, and every 5 warnings from CheckStyle deducts 1%. |
-| Project Demonstration | 80% | Will release later |
-
-Note that sanity tests are not part of the marking scheme because they are to make sure the critical part of the skeleton code is working.
-They will pass even you have not implemented anything. 
-**You will get zero for the both the provided and hidden test part (counted for 80%) if you break any of the sanity tests, which means you will get at most 20% for this assignment.**
-
-
-### Plagiarism
-
-We trust that you are familiar with HKUST's Honor Code. If not, refer to 
-[this page](https://course.cse.ust.hk/comp3021/#honorcode).
-
